@@ -1,0 +1,15 @@
+build/
+*.o
+*.out
+*.a
+*.so
+*.la
+*.lo
+
+*.iso
+*.img
+*.bin
+bin/
+obj/
+dist/
+.vscode
