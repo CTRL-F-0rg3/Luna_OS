@@ -5,7 +5,7 @@ build/
 *.so
 *.la
 *.lo
-
+*.d
 *.iso
 *.img
 *.bin
@@ -14,4 +14,4 @@ obj/
 dist/
 .vscode
 
-/home/ctrl/luna-os/kernel/target
+/kernel/target

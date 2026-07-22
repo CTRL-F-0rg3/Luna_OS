@@ -1,0 +1,18 @@
+# Ignoruj Makefile w statystykach językowych
+[Mm]akefile linguist-vendored
+*.mk linguist-vendored
+
+# Ignoruj pliki nagłówkowe C, jeśli są wygenerowane lub traktujesz je jako zewnętrzne
+# *.h linguist-vendored
+
+# Ignoruj skompilowane obiekty, biblioteki i pliki binarne
+*.o linguist-generated
+*.a linguist-generated
+*.so linguist-generated
+*.elf linguist-generated
+*.bin linguist-generated
+*.iso linguist-generated
+
+# Jeśli masz jakiś cały katalog ze skompilowanymi rzeczami (np. target/ lub build/)
+target/** linguist-vendored
+build/** linguist-vendored
