@@ -13,3 +13,5 @@ bin/
 obj/
 dist/
 .vscode
+
+/home/ctrl/luna-os/kernel/target
